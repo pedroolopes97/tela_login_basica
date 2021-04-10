@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #367A69, #1FE0DD);
+}
+/*font family pra escolher a fonte*/
+/*back image para fazer o degradê do fundo*/
+
+div{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+/*back color pra fazer o contorno escuro do login*/
+/*position absolute pra essa cor ocupar apenas o espaço do seu elemento*/
+/*top e left 50% pra deixar a div bem no meio*/
+/*transform voltou a div pro meio. eixo x e y, na ordem*/
+/*padding é distância dos elemntos pra borda. Assim fica em volta
+com um uma borda mais bonita*/
+/*border radius para arredondar as bordas*/
+/*color white pro escrito login ficar branco*/
+
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+/* outline foi pra tirar uma linha que da em volta do campo name e password*/
+/*font size para aumentar o tamanho da fonte*/
+/*padding é a distância entre elementos e borda*/
+
+button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/*padding é a distância entre elementos e borda*/
+/*width - largura. pra ocuprar 100% e ficar do tamanho dos outros*/
+/* cursor pointer. Quando passa mouse em cima, ele vira uma maozinha*/
+
+button:hover{
+    background-color: rgb(30, 131, 165);
+}
+
+/* button hover é pra quando passar mouse nele, mudar a cor*/
